@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun JokeApp() {
     val coroutineScope = rememberCoroutineScope()
-    var jokeText by remember { mutableStateOf("Me conte uma piada") }
+    var jokeText by remember { mutableStateOf("Está querendo sorrir hoje?") }
     var isLoading by remember { mutableStateOf(false) }
 
     Surface(modifier = Modifier.fillMaxSize()) {
